@@ -12,8 +12,26 @@ import java.util.concurrent.CompletableFuture;
  * @author FlameyosFlow
  * @since 1.0.0
  */
-public interface Economy {
+public interface Economy extends BankAccount {
     String format(double amount);
+
+    /**
+     * Gets the name of the economy
+     *
+     * @author FlameyosFlow
+     * @since 1.1.0
+     * @return the name of the economy
+     */
+    String getName();
+
+    /**
+     * Gets whether the economy is enabled or not.
+     *
+     * @author FlameyosFlow
+     * @since 1.1.0
+     * @return the name of the economy
+     */
+    boolean isEnabled();
 
     CompletableFuture<Double> getBalance(UUID playerId);
 
