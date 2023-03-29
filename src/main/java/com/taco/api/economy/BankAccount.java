@@ -14,6 +14,8 @@ import java.util.concurrent.CompletableFuture;
  * @since 1.0.0
  */
 public interface BankAccount {
+    boolean implementationSupportsBanks();
+
     CompletableFuture<Bank> createBank(UUID playerId, String bankName);
 
     default boolean bankHasEnough(UUID playerId, double amount) {
