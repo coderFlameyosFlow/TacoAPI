@@ -1,4 +1,4 @@
-# TacoAPI - Fork of Vault designed for speed and more support! -
+# TacoAPI - Fork of Vault designed for speed and more support! - [![jitpack](https://jitpack.io/v/coderFlameyosFlow/TacoAPI.svg)](https://jitpack.io/#coderFlameyosFlow/TacoAPI)
 How to include the API with Maven: 
 ```xml
 <repositories>
