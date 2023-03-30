@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.taco.api</groupId>
 	<artifactId>TacoAPI</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.1</version>
 
 	<name>VaultAPI</name>
 	<description>Taco is a fork of Vault compatible with all Vault plugins, but adds support for async economy, UUID support, maintainability, and more!</description>
